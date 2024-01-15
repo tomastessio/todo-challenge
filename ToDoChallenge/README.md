@@ -29,3 +29,7 @@ Porfavor sigan las instrucciones debajo para instalar y correr el proyecto corre
 1. Para ejecutar los tests se debe detener el servidor con `Ctrl + C`.
 
 2. Una vez frenado, usar el siguiente comando `python manage.py test` y ver el resultado.
+
+3. Para probar manualmente las API, se recomienda utilizar la UI brindada por Swagger o Postman.
+   a. Para probar utilizando Swagger, dirigirse al endpoint de login y brindar las credenciales creadas at supra. Se le retornará un JWT. Luego, para probar cualquier otro endpoint se le solicitará dicho JWT. El mismo se coloca en la pestañana de "Authorize" anteponiendo la palabra Bearer + el JWT.
+   b. Para probar utilizando Postman, repetir el procedimiento. La diferencia radica en dirigirse a la pestaña "Authorization" e indicar el tipo de token "Bearer". Pegar el token en la casilla para probar todos los demás endpoints.
