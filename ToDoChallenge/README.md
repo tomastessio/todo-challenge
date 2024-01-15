@@ -22,7 +22,7 @@ Porfavor sigan las instrucciones debajo para instalar y correr el proyecto corre
 
 1. Para levantar el proyecto, ejecutar el comando `python manage.py runserver` y se encontrará funcionando en `http://localhost:8000`.
 
-2. El proyecto ya esta funcionando correctamente, dirigirse a  `http://localhost:8000/swagger/` para explorar la documentación de las API
+2. El proyecto ya esta funcionando correctamente, dirigirse a  `http://localhost:8000/docs/` para explorar la documentación de las API
 
 ## Unit Tests
 
